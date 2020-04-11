@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>To Do List</title>
+    <script src="main.js" async></script>
+    <style>
+      .checked {
+        text-decoration:line-through; 
+      }
+    </style>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="font/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+   <div class="mainContainer">
+      <header>
+        <h1>Check It - The Simple To Do List</h1>
+      </header>
+      <main>
+    <div class="container">
+        <h2> Struggling to Stay On Top Of Your To-Dos? </h2>
+      <div class="grid-container">
+        <section>
+          <div class="grid-img">
+          <img src="img/todo2.jpg">
+          </div>
+          <p> Staying motivated and on-track can be tricky! Use this simple to do list to help you record all of your to-do tasks. When you've completed the task, check it off and it will move to the bottom of your list auto-magically! Done with that task forever? Click the delete button and your task will be permanently removed. </p>
+        </section>
+      </div>
+    </div>
+      
+      <div class="container2">
+          <section>
+          <h2> My To Do List </h2>
+          <div class="content">
+          <form align="center">
+            <label for="toDo">Add an item to the list: </label>
+            <input type="text" id="toDo" placeholder="Things To Do">
+            <button id="button">Add To List</button>
+            <ul id="toDoList"></ul>
+          </form>
+      </div>
+        </section> 
+      </div>
+      </main>
+      <footer>
+        <p>Check It &copy; 2020 - All Rights Reserved </p>
+      </footer>
+    </div>
+  </body>
+</html>

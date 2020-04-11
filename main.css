@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,700&family=Indie+Flower&display=swap');
+
+body {
+	margin: 0;
+	background-color: #ffffff;
+	background: rgba(215, 132, 203, 0.52);
+}
+
+.container{ 
+    background: rgba(115, 0, 255, 0.30);
+    margin: -20px 0 0 0;
+}
+
+header{
+	font-family: 'Comic Neue', cursive;
+	text-align: center;
+	background-image: url("img/todo4.jpg");
+	padding: 50px;
+	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	margin: auto;
+	color: #25FAFF;
+	text-shadow: 2px 2px 4px #000000;
+}
+body
+h1,
+h2,
+p,
+form{
+	padding: 25px;
+}
+h1 {
+	text-shadow: 1px 1px 1px purple, 0 0 2px blue;
+	text-decoration: underline;
+}
+
+h2 {
+	text-shadow: 1px 1px 1px white, 0 0 2px blue;
+	text-decoration: underline;
+}
+
+p{
+	text-align: justify;
+	padding-left: 10%;
+	font-size: 1.2rem;
+	line-height: 1.6;
+}
+
+p,
+form,
+ul {
+	font-family: 'Comic Neue', cursive;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0px 5px 0px 5px;
+}
+
+ul li {
+	margin-top: 10px;
+	text-align: center;
+}
+
+li > input[type=checkbox] {
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+#toDoList > li > button {
+	border-radius:6px;
+	text-shadow:0px 1px 1px #528ecc;
+	color:#0F81DE;
+	padding: 10px;
+}
+
+#toDoList > li > button:hover {
+	background:linear-gradient(to bottom, #80b5ea 5%, #bddbfa 100%);
+	background-color:#80b5ea;
+}
+
+#toDoList {
+	text-decoration: none;
+}
+form{
+	background: rgb(0, 0, 0); 
+    background: rgba(115, 0, 255, 0.59);   
+    color: #f1f1f1; 
+	margin: 0 600px;
+	border-radius: 20px 40px 60px;
+}
+label {
+  text-align:center;
+  display:block;
+  font-size:18;
+  padding-bottom: 50px;
+}
+.content {
+  text-align: center;
+  display: inline-block;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+
+.grid-container{
+	display: grid;
+	grid-template-columns: 80% 1fr;
+	grid-template-areas: 'left right';
+	grid-gap: 5px;
+}
+
+.grid-img > img {
+	width: 460px;
+	float: right;
+	margin-right: 20px;
+	grid-area: right;
+    margin-left: 30px;
+    margin-right: -50px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 10px;
+}
+
+input[type=text] {
+	margin-bottom: 30px;
+	padding: 10px;
+	width: 80%;
+	border-radius: 10px;
+	text-align: center;
+}
+
+#button {
+	box-shadow:inset 0px 1px 0px 0px #dcecfb;
+	background:linear-gradient(to bottom, #bddbfa 5%, #80b5ea 100%);
+	background-color:#bddbfa;
+	border-radius:6px;
+	border:1px solid #84bbf3;
+	display:block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528ecc;
+	margin: auto;
+	margin-top: 15px;
+}
+#button:hover {
+	background:linear-gradient(to bottom, #80b5ea 5%, #bddbfa 100%);
+	background-color:#80b5ea;
+}
+#button:active {
+	position:relative;
+	top:1px;
+}
+
+
+body h2 {
+	font-family: 'cagliostro', cursive;
+	text-align: center;
+	color: #1A00FF;
+}
+
+@font-face {
+    font-family: 'cagliostro';
+    src: url('font/cagliostro-regular-webfont.woff2') format('woff2'),
+         url('font/cagliostro-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+footer > p{
+	background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+	margin: 100px 0 0 0;
+	text-align: center;
+	font-size: 16px;
+	padding: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
